@@ -12,4 +12,6 @@ function save(puan=10,ogrenci) {
 save(undefined,student)
 
 let students=["Engin Demiroğ","Pelin Coşkun","İzel","Ece"]
-console.log(students)
+//console.log(students)
+let students2=[student,{id:2,name:"Fatma"},"Ankara",{city:"İstanbul"}]
+console.log(students2)
