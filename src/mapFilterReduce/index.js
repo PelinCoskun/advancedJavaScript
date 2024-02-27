@@ -5,3 +5,7 @@ let products = [
     { id: 4, name: "Dell Laptop", unitPrice: 18000 },
     { id: 5, name: "Casper Laptop", unitPrice: 19000 },
   ];
+
+  console.log("<ul>");
+products.map((product) => console.log(`<li>${product.name}</li>`));
+console.log("</ul>");
